@@ -1,0 +1,28 @@
+{
+  "name": "lucky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "14.15.3",
+    "npm": "6.14.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "node-popup": "^0.1.14"
+  }
+}

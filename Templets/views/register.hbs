@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.rawgit.com/JacobLett/bootstrap4-latest/504729ba/bootstrap-4-latest.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="/register" method="POST">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col mt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="30" viewBox="0 0 91 25">
+                            <text id="STUDENT" transform="translate(27 21)" fill="#030303" font-size="14"
+                                font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                                <tspan x="0" y="0">STUDENT</tspan>
+                            </text>
+                            <path id="Icon_awesome-user-edit" data-name="Icon awesome-user-edit"
+                                d="M9.38,10.734A5.367,5.367,0,1,0,4.02,5.367,5.363,5.363,0,0,0,9.38,10.734Zm3.752,1.342h-.7a7.28,7.28,0,0,1-6.105,0h-.7A5.633,5.633,0,0,0,0,17.711v1.744a2.012,2.012,0,0,0,2.01,2.013H13.521a2.016,2.016,0,0,1-.109-.893l.285-2.553.05-.465.331-.331,3.237-3.241a5.567,5.567,0,0,0-4.183-1.908Zm1.9,6.092-.285,2.558a.667.667,0,0,0,.737.738l2.55-.285L23.8,15.4l-3-3.006-5.774,5.778Zm11.477-6.893L24.919,9.686a1,1,0,0,0-1.415,0l-1.583,1.585-.172.172,3.007,3.006,1.75-1.753a1.011,1.011,0,0,0,0-1.421Z"
+                                fill="#0effc6" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col mt-4">
+                        <h5><b>New account !</b></h5>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col mt-4">
+                        <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <input type="email" class="form-control" placeholder="Email" name="email">
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter mobile no." name="phone">
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter Roll no." name="roll">
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="Password" name="password">
+                    </div>
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="confirmpassword"
+                            name="confirmpassword">
+                    </div>
+                    <br>
+
+                </div>
+
+                <div class="row justify-content-start mt-4">
+                    <div class="col">
+                        <h10>
+                            <p>allrady have account?<a href="/login"><b> login</b></a></p>
+                        </h10>
+                        <button class="btn btn-primary btn-block" type="submit">Register</button>
+                        <button class="btn btn-dark btn-block" type="button">forgot password ?</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
